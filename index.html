@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="overlay" id="overlay">
+        <h3>Thanks for your questions!</h3>
+    </div>
+    <div class="hero-bg"> 
+        <section class="top">
+            <header>
+                 <a href="#">header</a>
+            </header>
+                 <!-- <nav>
+                     <ul>
+                         <li><a href="#">home</a></li>
+                         <li><a href="#">about</a></li>
+                         <li><a href="#">services</a></li>
+                     </ul>
+                 </nav> -->
+                <h1><span>UNICEF Brébeuf</span>Children around the world</h1>
+                <p>
+                    around the world, many children live in poverty. UNICEF Brébeuf is a charity that works to help children in need. 
+                    many of these children are in need of food, water, shelter, and education. however in the modern day buzz and hastle few people find they have the time to care about others
+                    that is one of the reasons why UNICEF Brébeuf is here to help. 
+                </p>
+                <div class="questions">
+                    <form action="">
+                        <div class="form-left">
+                            <label for="money">have any questions? feel free to ask:</label>
+                            <input type="any" name="questions" id="questions"></input>
+                        </div>
+
+                        <input type="button" value="Submit" id="cta-btn">
+                    </form>
+                </div>
+            
+        </section>
+        <iframe scrolling="no" width="800px" frameborder="0" height="700px" src="https://sdmx.data.unicef.org/databrowser/embed.html?df=UNICEF:CCRI(1.0)&dq=.POV_INEQUITY&chart=N4IgxgFghgTgLgYQPYDsBmBLA5iAXKOATwAcBTPEOGU0gWymJABoQli4NUBnPUYmDPRiEKAJQCiAMQD6AQQmzmILqTCoAJrBG4QIAL4sOcADbkdxJADdS8QgAIoKdXYwpSARwCuUYxiIOYJE8nOzgIUjsAdyQYY2dUBzsuMB8IpDQ7AAYAWgBGTKUuTwAjI1MKfT0gA"></iframe>    </div>
+
+    <section class="explanation">
+        <div class="right-col">
+            <h2>Our Goals</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, repellendus. Asperiores ducimus itaque alias, exercitationem suscipit eum cum similique rem.</p>
+        </div>
+        <img src="images/unicef.jpg" alt="logo"> 
+    </section>
+
+    <script>
+        let btn = document.getElementById("cta-btn");
+        let overlay = document.getElementById("cta-btn");
+        btn.addEventListener('click', () => {
+            // rediredt to https://www.unicef.ca/en/search?search= + document.getElementById("questions").value
+            window.location.href = "https://www.unicef.ca/en/search?search=" + document.getElementById("questions").value;
+        })
+    </script>
+</html> 
