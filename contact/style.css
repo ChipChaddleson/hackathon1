@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Roboto+Serif:wght@100&display=swap');
+
 li{
     /* hide dots */
     list-style: none;
@@ -17,8 +19,10 @@ body {
 }
 
 button{
-    width: 80%;
-    height: 8%;
+    width: 70%;
+    height: 10%;
+    margin: 10px 10px;
+    border-radius: .5em;
     /* background image */
 
 }
@@ -27,7 +31,8 @@ button{
     background-image: url("1.png");
     background-size: cover;
     color: white;
-    font-size: 50px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
     font-weight: 600;
     
 }
@@ -35,69 +40,79 @@ button{
     background-image: url("2.jpg");
     background-size: cover;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
+    font-family: 'Dosis', sans-serif;
 }
 #a3{
     background-image: url("3.jpg");
     background-size: cover;
-    color: rgb(207, 207, 207);
-    font-size: 50px;
+    color: white;
+    font-size: 35px;
     font-weight: 600;
+    font-family: 'Dosis', sans-serif;
 }
 #a4{
     background-image: url("4.jfif");
     background-size: cover;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
+    font-family: 'Dosis', sans-serif;
 }
 #a5{
     background-image: url("5.png");
     background-size: cover;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
+    font-family: 'Dosis', sans-serif;
 }
 #a6{
     background-image: url("6.jpg");
     background-size: cover;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
+    font-family: 'Dosis', sans-serif;
 }
 #a7{
     background-image: url("7.jpg");
     background-size: cover;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
+    font-family: 'Dosis', sans-serif;
 }
 #a8{
     background-image: url("8.jpg");
     background-size: cover;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
+    font-family: 'Dosis', sans-serif;
 }
 #a9{
     background-image: url("9.jpeg");
     background-size: cover;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
+    font-family: 'Dosis', sans-serif;
 }
 #a0{
     background-image: url("0.jpg");
     background-size: cover;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
+    font-family: 'Dosis', sans-serif;
 }
 #a11{
     background-image: url("11.jpg");
     background-size: cover;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
+    font-family: 'Dosis', sans-serif;
 }
