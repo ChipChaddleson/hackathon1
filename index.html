@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <!-- link js -->
+    <script src="script.js"></script>
 </head>
 <body>
-    <div class="overlay" id="overlay">
-        <h3>Thanks for your questions!</h3>
-    </div>
     <div class="hero-bg"> 
         <br>
         <section class="top">
@@ -32,22 +31,55 @@
                     That is one of the reasons why UNICEF Brébeuf is here to help. 
                 </p>
                 <div class="questions">
-                    <form action="">
+                    <div>
                         <div class="form-left">
                             <label for="money">have any questions? feel free to ask:</label>
                             <input type="any" name="questions" id="questions"></input>
                         </div>
 
-                        <input type="button" value="Submit" id="cta-btn">
-                    </form>
+                        <button style="
+                            background-color: rgb(93, 93, 247);
+                            color: rgb(195, 246, 248);
+                            padding: 14px 16px;
+                            text-decoration: none;
+                            font-size: 17px;
+                            border: none;
+                            cursor: pointer;
+                            height: 68px;
+                            width: 232px;
+                            margin-left: 2px;
+                            /* make corners rounded */
+                            border-radius: 5px;
+                            /* make it have a 3D effect */
+                            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                            margin-top: 5px;
+                            " id="cta-btn" onclick="redir();">Submit</button>
+                    </div>
                 </div>
             
         </section>
         <!-- the embed below uses UNICEFS API to fetch data for UNICEF:CCRI(1.0)&dq=.POV_INEQUITY -->
+        <div id="chart">
         <iframe scrolling="no" width="800px" frameborder="0" height="700px" src="https://sdmx.data.unicef.org/databrowser/embed.html?df=UNICEF:CCRI(1.0)&dq=.POV_INEQUITY&chart=N4IgxgFghgTgLgYQPYDsBmBLA5iAXKOATwAcBTPEOGU0gWymJABoQli4NUBnPUYmDPRiEKAJQCiAMQD6AQQmzmILqTCoAJrBG4QIAL4sOcADbkdxJADdS8QgAIoKdXYwpSARwCuUYxiIOYJE8nOzgIUjsAdyQYY2dUBzsuMB8IpDQ7AAYAWgBGTKUuTwAjI1MKfT0gA"></iframe>    </div>
-        
+        </div>
         <div class="chart-change">
-            <input type="button" value="Bar Chart" id="btn2">
+            <button style="
+            background-color: rgb(156, 238, 89);
+            color: rgb(94, 143, 199);
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+            height: 68px;
+            width: 232px;
+            margin-left: 17px;
+            /* make corners rounded */
+            border-radius: 50px;
+            margin-top: 20px;
+            /* make it have a 3D effect */
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            " id="btn2" onclick="switchChart();">Change Chart</button>
         </div>
 
     <section class="explanation">
