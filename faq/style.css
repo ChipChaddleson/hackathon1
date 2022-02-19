@@ -1,0 +1,39 @@
+h1{
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    /* make the size of the block half the page */
+    width: 50%;
+    /* center the block */
+    margin: 0 auto;
+}
+
+p{
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 500;
+    /* center the text */
+    text-align: left;
+    /* make the size of the block half the page */
+    width: 50%;
+    /* center the block */
+    margin: 0 auto;
+}
+
+div{
+    height: 51px;
+    position: fixed;
+    background-color: #1CABE2;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+}
+.comp{
+    color: white;
+}
